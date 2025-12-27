@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+.header{
+    background: linear-gradient(to right, red, orange);
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.nav-bar{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.main{
+    /* border: 1px solid red; */
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    /* background-color: lightsalmon; */
+
+}
+.side-bar{
+    border: 1px solid black;
+    width: 18%;
+    display: flex;
+    padding-top: 10px;    
+}
+.side-bar ul li{
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+.content{
+    /* border: 1px solid black; */
+    width: 77%;
+    display: flex;
+    padding: 170px 20px;
+    gap: 10px;
+}
+.cards{
+    background: radial-gradient(yellow, orange, red);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 32%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background: linear-gradient(to right, red, orange);
+    border: 1px solid black;
+    width: 95.3vw;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 20px;
+}
+.footer ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
