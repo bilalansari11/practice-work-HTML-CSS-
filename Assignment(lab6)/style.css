@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Header-style */
+header {
+    /* width: 95vw; */
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: linear-gradient(to right, lightblue, blue);
+}
+header h1 {
+    color: darkblue;
+    font-size: 35px;
+    letter-spacing: 2px;
+    position: relative;
+    animation: logo 3s ease-out;
+}
+header h1:hover {
+    cursor: pointer;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #ffffff;
+    position: relative;
+    animation: item 3s ease-out;
+}
+header nav ul:hover {
+    cursor: pointer;
+}
+@keyframes logo {
+    from {right: 120px;}
+    to {left: 0px;}
+}
+@keyframes item {
+    from {left: 300px;}
+    to {right: 0px;}
+}
+/* Main-style */
+main {
+    min-height: 100vh;
+    width: 98.8vw;
+    display: flex;
+}
+aside {
+    width: 15%;
+    background: linear-gradient(to right, lightblue, blue);
+}
+aside nav ul li a {
+    color: white;
+    display: flex;
+    padding: 30px 60px;
+    text-decoration: none;
+}
+aside nav ul li:hover {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+section{
+    width: 85%;
+    background-color: lightskyblue;
+    text-align: center;
+}
+/* Footer-style */
+footer {
+    border: 1px solid black;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: end;
+    color: aliceblue;
+    background: linear-gradient(to right, lightblue, blue);
+}
