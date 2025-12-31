@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+.container {
+    /* border: 1px solid black; */
+    /* background-color: cadetblue; */
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(18, 40px);
+    grid-template-rows: repeat(9, 40px);
+    gap: 1px;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    
+}
+
+.container > div {
+    /* border: 1px solid red; */
+    text-align: center;
+    align-content: center;
+}
+
+.hydrogen {
+    background-color: #e2eeff;
+}
+
+.helium {
+    background-color: #ffe7eb;
+    grid-column: 18/19;
+}
+
+.lithium {
+    background-color: #d8f8ff;
+    grid-column: 1/2;
+}
+
+.beryllium {
+    background-color: #ffe7e7;
+    grid-column: 2/3;
+}
+
+.boron{
+    background-color: #fef7e0;
+    grid-column: 13/14;
+}
+
+.carbon{
+    background-color: #e2eeff;
+    grid-column: 14/15;
+}
+
+.nitrogen{
+    background-color: #e2eeff;
+    grid-column: 15/16;
+}
+
+.oxygen{
+    background-color: #e2eeff;
+    grid-column: 16/17;
+}
+
+.fluorine{
+    background-color: #e2eeff;
+    grid-column: 17/18;
+}
+
+.neon{
+    background-color: #ffe7eb;
+    grid-column: 18/19;
+}
+
+.sodium {
+    background-color: #d8f8ff;
+} 
+
+.magnesium {
+    background-color: #ffe7e7;
+}
+
+.aluminium{
+    background-color: #d6f9e8;
+    grid-column: 13/14;
+}
+
+.silicon{
+    background-color: #fef7e0;
+    grid-column: 14/15;
+}
+
+.phosphorus{
+    background-color: #e2eeff;
+    grid-column: 15/16;
+}
+
+.sulfur{
+    background-color: #e2eeff;
+    grid-column: 16/17;
+}
+
+.chlorine{
+    background-color: #e2eeff;
+    grid-column: 17/18;
+}
+
+.argon {
+    background-color: #ffe7eb;
+    grid-column: 18/19;
+}
+
+.potassium {
+    background-color: #d8f8ff;
+} 
+
+.calcium {
+    background-color: #ffe7e7;
+}
+
+.scandium {
+    background-color: #f3e8fd;
+}
+
+.titanium {
+    background-color: #f3e8fd;
+}
+
+.vanadium {
+    background-color: #f3e8fd;
+}
+
+.chromium {
+    background-color: #f3e8fd;
+}
+
+.manganese {
+    background-color: #f3e8fd;
+}
+
+.iron {
+    background-color: #f3e8fd;
+}
+
+.cobalt {
+    background-color: #f3e8fd;
+}
+
+.nickle {
+    background-color: #f3e8fd;
+}
+
+.copper {
+    background-color: #f3e8fd;
+}
+
+.zinc {
+    background-color: #f3e8fd;
+}
+
+.gallium {
+    background-color: #d6f9e8;
+}
+
+.germanium {
+    background-color: #fef7e0;
+}
+
+.arsenic {
+    background-color: #fef7e0;
+}
+
+.selenium {
+    background-color: #e2eeff;
+}
+
+.bromine {
+    background-color: #e2eeff;
+}
+
+.krypton {
+    background-color: #ffe7eb;
+}
+
+.rubidium {
+    background-color: #d8f8ff;
+} 
+
+.strontium {
+    background-color: #ffe7e7;
+}
+
+.yttrium {
+    background-color: #f3e8fd;
+}
+
+.zirconium {
+    background-color: #f3e8fd;
+}
+
+.niobium {
+    background-color: #f3e8fd;
+}
+
+.molybdenum {
+    background-color: #f3e8fd;
+}
+
+.technetium {
+    background-color: #f3e8fd;
+}
+
+.ruthenium {
+    background-color: #f3e8fd;
+}
+
+.rhodium {
+    background-color: #f3e8fd;
+}
+
+.palladium {
+    background-color: #f3e8fd;
+}
+
+.silver {
+    background-color: #f3e8fd;
+}
+
+.cadmium {
+    background-color: #f3e8fd;
+}
+
+.indium {
+    background-color: #d6f9e8;
+}
+
+.tin {
+    background-color: #d6f9e8;
+}
+
+.antomony {
+    background-color: #fef7e0;
+}
+
+.tellurium {
+    background-color: #fef7e0;
+}
+
+.iodine {
+    background-color: #e2eeff;
+}
+
+.xenon {
+    background-color: #ffe7eb;
+}
+
+.caesium {
+    background-color: #d8f8ff;
+}
+
+.barium {
+    background-color: #ffe7e7;
+}
+
+.lanthanum {
+    background-color: #dff3ff;
+}
+
+.hafnium {
+    background-color: #f3e8fd;
+}
+
+.tantalum {
+    background-color: #f3e8fd;
+}
+
+.tungsten {
+    background-color: #f3e8fd;
+}
+
+.rhenium {
+    background-color: #f3e8fd;
+}
+
+.osmium {
+    background-color: #f3e8fd;
+}
+
+.iridium {
+    background-color: #f3e8fd;
+}
+
+.platinum {
+    background-color: #f3e8fd;
+}
+
+.gold {
+    background-color: #f3e8fd;
+}
+
+.murcury {
+    background-color: #f3e8fd;
+}
+
+.thallium {
+    background-color: #d6f9e8;
+}
+
+.lead {
+    background-color: #d6f9e8;
+}
+
+.bismuth {
+    background-color: #d6f9e8;
+}
+
+.polonium {
+    background-color: #d6f9e8;
+}
+
+.astatine {
+    background-color: #d6f9e8;
+}
+
+.radon {
+    background-color: #ffe7eb;
+}
+
+.francium {
+    background-color: #d8f8ff;
+} 
+
+.radium {
+    background-color: #ffe7e7;
+}
+
+.actinium {
+    background-color: #ffe6d4;
+}
+
+.rutherfordium {
+    background-color: #f3e8fd;
+}
+
+.dubnium {
+    background-color: #f3e8fd;
+}
+
+.seaborgium {
+    background-color: #f3e8fd;
+}
+
+.bohrium {
+    background-color: #f3e8fd;
+}
+
+.hassium {
+    background-color: #f3e8fd;
+}
+
+.meitnerium {
+    background-color: #e7e7ea;
+}
+
+.darmstadium {
+    background-color: #e7e7ea;
+}
+
+.roentgenium {
+    background-color: #e7e7ea;
+}
+
+.copernicium {
+    background-color: #e7e7ea;
+}
+
+.nihonium {
+    background-color: #e7e7ea;
+}
+
+.flerovium {
+    background-color: #e7e7ea;
+}
+
+.moscovium {
+    background-color: #e7e7ea;
+}
+
+.livermorium {
+    background-color: #e7e7ea;
+}
+
+.tennessine {
+    background-color: #e7e7ea;
+}
+
+.oganesson {
+    background-color: #e7e7ea;
+}
+
+.cerium {
+    background-color: #dff3ff;
+    grid-column: 4/5;
+}
+
+.praseodymium {
+    background-color: #dff3ff;
+}
+
+.neodymium {
+    background-color: #dff3ff;
+}
+
+.promethium {
+    background-color: #dff3ff;
+}
+
+.samarium {
+    background-color: #dff3ff;
+}
+
+.europium {
+    background-color: #dff3ff;
+}
+
+.gadolinium {
+    background-color: #dff3ff;
+}
+
+.terbium {
+    background-color: #dff3ff;
+}
+
+.dysprosium {
+    background-color: #dff3ff;
+}
+
+.holmium {
+    background-color: #dff3ff;
+}
+
+.erbium {
+    background-color: #dff3ff;
+}
+
+.thulium {
+    background-color: #dff3ff;
+}
+
+.ytterbium {
+    background-color: #dff3ff;
+}
+
+.lutetium {
+    background-color: #dff3ff;
+}
+
+.thorium {
+    background-color: #ffe6d4;
+    grid-column: 4/5;
+}
+
+.protactinium {
+    background-color: #ffe6d4;
+}
+
+.uranium {
+    background-color: #ffe6d4;
+}
+
+.neptunium {
+    background-color: #ffe6d4;
+}
+
+.plutonium {
+    background-color: #ffe6d4;
+}
+
+.americium {
+    background-color: #ffe6d4;
+}
+
+.curium {
+    background-color: #ffe6d4;
+}
+
+.berkelium {
+    background-color: #ffe6d4;
+}
+
+.californium {
+    background-color: #ffe6d4;
+}
+
+.einsteinium {
+    background-color: #ffe6d4;
+}
+
+.fermium {
+    background-color: #ffe6d4;
+}
+
+.mendelevium {
+    background-color: #ffe6d4;
+}
+
+.nobelium {
+    background-color: #ffe6d4;
+}
+
+.lawrencium {
+    background-color: #ffe6d4;
+}
